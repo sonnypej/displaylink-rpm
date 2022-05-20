@@ -1,8 +1,6 @@
 name: Devel Branch Build
 
-on:
-  schedule:
-    - cron: '30, 5, *, *, 1'
+on: workflow_dispatch
 
 jobs:
   develBuild:

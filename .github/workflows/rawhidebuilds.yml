@@ -1,8 +1,6 @@
 name: Rawhide Build
 
-on:
-  schedule:
-    - cron: '45, 5, *, *, 1'
+on: workflow_dispatch
 
 jobs:
   rawhideBuilds:
