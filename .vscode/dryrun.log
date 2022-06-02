@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/sonny/code/github/displaylink-rpm'
+wget -O DisplayLink\ USB\ Graphics\ Software\ for\ Ubuntu\ 5.5.0-59.151.zip \
+	"https://www.synaptics.com/sites/default/files/exe_files/2022-03/DisplayLink USB Graphics Software for Ubuntu5.5-EXE.zip"
+rpmbuild -bb --define "_topdir `pwd`" --define "_sourcedir `pwd`" --define "_rpmdir `pwd`" --define "_specdir `pwd`" --define "_srcrpmdir `pwd`" --define "_buildrootdir `mktemp -d /var/tmp/displayportXXXXXX`" --define "_builddir `mktemp -d /var/tmp/displayportXXXXXX`" --define "_release 1" --define "_daemon_version 5.5.0-59.151" --define "_version 1.10.1" --define "_tmppath `mktemp -d /var/tmp/displayportXXXXXX`"  displaylink.spec --target=i386
+rpmbuild -bb --define "_topdir `pwd`" --define "_sourcedir `pwd`" --define "_rpmdir `pwd`" --define "_specdir `pwd`" --define "_srcrpmdir `pwd`" --define "_buildrootdir `mktemp -d /var/tmp/displayportXXXXXX`" --define "_builddir `mktemp -d /var/tmp/displayportXXXXXX`" --define "_release 1" --define "_daemon_version 5.5.0-59.151" --define "_version 1.10.1" --define "_tmppath `mktemp -d /var/tmp/displayportXXXXXX`"  displaylink.spec --target=x86_64
+rpmbuild -bs --define "_topdir `pwd`" --define "_sourcedir `pwd`" --define "_rpmdir `pwd`" --define "_specdir `pwd`" --define "_srcrpmdir `pwd`" --define "_buildrootdir `mktemp -d /var/tmp/displayportXXXXXX`" --define "_builddir `mktemp -d /var/tmp/displayportXXXXXX`" --define "_release 1" --define "_daemon_version 5.5.0-59.151" --define "_version 1.10.1" --define "_tmppath `mktemp -d /var/tmp/displayportXXXXXX`"  displaylink.spec
+make: Leaving directory '/home/sonny/code/github/displaylink-rpm'
+ 

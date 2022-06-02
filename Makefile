@@ -77,7 +77,8 @@ all: $(TARGETS)
 # Use evdi tagged release on Github instead of using what is bundled in Displaylink download
 github-release: $(TARGETS_GITHUB_EVDI)
 
-rpm: $(i386_RPM) $(x86_64_RPM)
+# rpm: $(i386_RPM) $(x86_64_RPM)
+rpm: $(x86_64_RPM)
 
 srpm: $(i386_RPM) $(x86_64_RPM)
 

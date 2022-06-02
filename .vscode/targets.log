@@ -1,0 +1,547 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-redhat-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Jun  1 16:10:26 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# makefile (from 'Makefile', line 137)
+BUILD_DEFINES = --define "_topdir `pwd`" --define "_sourcedir `pwd`" --define "_rpmdir `pwd`" --define "_specdir `pwd`" --define "_srcrpmdir `pwd`" --define "_buildrootdir `mktemp -d /var/tmp/displayportXXXXXX`" --define "_builddir `mktemp -d /var/tmp/displayportXXXXXX`" --define "_release $(RELEASE)" --define "_daemon_version $(DAEMON_VERSION)" --define "_version $(VERSION)" --define "_tmppath `mktemp -d /var/tmp/displayportXXXXXX`" 
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# makefile (from 'Makefile', line 32)
+i386_RPM := i386/displaylink-1.10.1-1.i386.rpm
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-90161fc0-3b3f-4aae-b1df-8a8a771794c2.sock
+# makefile (from 'Makefile', line 16)
+SPEC_FILE := displaylink.spec
+# environment
+VSCODE_CWD = /home/sonny
+# makefile (from 'Makefile', line 22)
+EVDI_DEVEL_BASE_DIR := /var/tmp
+# environment
+NVM_DIR = /home/sonny/.nvm
+# environment
+GDM_LANG = en_US.UTF-8
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# makefile (from 'Makefile', line 25)
+BUILD_DEPS := DisplayLink\ USB\ Graphics\ Software\ for\ Ubuntu\ 5.5.0-59.151.zip displaylink.spec
+# makefile (from 'Makefile', line 21)
+EVDI_DEVEL_REPO := https://github.com/DisplayLink/evdi.git
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/sonny/code/github/displaylink-rpm
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+HOSTNAME = fedora
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+MAIL = /var/spool/mail/sonny
+# environment
+XDG_DATA_DIRS = /home/sonny/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/
+# environment
+OLDPWD = /home/sonny
+# makefile (from 'Makefile', line 20)
+EVDI_DEVEL_BRANCH := devel
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+NVM_INC = /home/sonny/.nvm/versions/node/v16.15.0/include/node
+# environment
+VSCODE_CODE_CACHE_PATH = /home/sonny/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.6PF2M1
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GNOME_TERMINAL_SERVICE = :1.125
+# makefile
+MAKEFLAGS = pqrR
+# makefile (from 'Makefile', line 41)
+x86_64_RPM_GITHUB_EVDI := x86_64/displaylink-1.10.1-1-github_evdi.x86_64.rpm
+# makefile
+CURDIR := /home/sonny/code/github/displaylink-rpm
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from 'Makefile', line 23)
+EVDI_DEVEL := /var/tmp/evdi-1.10.1
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+LESSOPEN = ||/usr/bin/lesspipe.sh %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from 'Makefile', line 7)
+VERSION := 1.10.1
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+NVM_BIN = /home/sonny/.nvm/versions/node/v16.15.0/bin
+# environment
+WAYLAND_DISPLAY = wayland-0
+# environment
+HISTSIZE = 50000
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = gnome
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# makefile (from 'Makefile', line 58)
+get_release_version =         echo -e "$(RELEASE)" | tr -d '[:space:]'
+# environment
+ZSH = /home/sonny/.oh-my-zsh
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 7756
+# environment
+XDG_SESSION_TYPE = wayland
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 26)
+BUILD_DEPS_GITHUB_EVDI := DisplayLink\ USB\ Graphics\ Software\ for\ Ubuntu\ 5.5.0-59.151.zip v1.10.1.tar.gz displaylink.spec
+# environment
+SESSION_MANAGER = local/unix:@/tmp/.ICE-unix/3328,unix/unix:/tmp/.ICE-unix/3328
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# makefile (from 'Makefile', line 50)
+EVDI_GITHUB := https://api.github.com/repos/DisplayLink/evdi
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-redhat-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+SHLVL = 2
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/35e9436d_2000_4391_93d0_463f31a0bf0f
+# environment
+MAKELEVEL := 0
+# makefile (from 'Makefile', line 14)
+DAEMON_PKG := DisplayLink\ USB\ Graphics\ Software\ for\ Ubuntu\ 5.5.0-59.151.zip
+# default
+MAKE = $(MAKE_COMMAND)
+# makefile (from 'Makefile', line 33)
+x86_64_RPM := x86_64/displaylink-1.10.1-1.x86_64.rpm
+# environment
+PATH = /home/sonny/.nvm/versions/node/v16.15.0/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 8)
+RELEASE := 1
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = sonny
+# environment
+GNOME_SETUP_DISPLAY = :1
+# automatic
+?F = $(notdir $?)
+# makefile (from 'Makefile', line 15)
+EVDI_PKG := v1.10.1.tar.gz
+# environment
+XDG_CURRENT_DESKTOP = GNOME
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:
+# automatic
++F = $(notdir $+)
+# environment
+LESS = -R
+# environment
+DESKTOP_SESSION = gnome
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = sonny
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 3916
+# environment
+HISTCONTROL = ignoredups
+# makefile (from 'Makefile', line 62)
+get_devel_date = 	curl -s $(EVDI_GITHUB)/branches/devel -H "Accept: application/vnd.github.full+json" | grep date | head -1 | cut -d: -f 2- | sed s/[^0-9TZ]//g
+# environment
+EDITOR = vim
+# environment
+DISPLAY = :0
+# environment
+USER = sonny
+# default
+MAKE_VERSION := 4.3
+# makefile (from 'Makefile', line 52)
+get_latest_prerelease = 	curl -s $(EVDI_GITHUB)/releases?per_page=1 -H "Accept: application/vnd.github.full+json" | grep tag_name | sed s/[^0-9\.]//g
+# makefile (from 'Makefile', line 40)
+i386_RPM_GITHUB_EVDI := i386/displaylink-1.10.1-1-github_evdi.i386.rpm
+# environment
+which_declare = typeset -f
+# makefile (from 'Makefile', line 6)
+DOWNLOAD_ID := 4391    
+# environment
+DEBUGINFOD_URLS = https://debuginfod.fedoraproject.org/ 
+# makefile (from 'Makefile', line 36)
+TARGETS := i386/displaylink-1.10.1-1.i386.rpm x86_64/displaylink-1.10.1-1.x86_64.rpm displaylink-1.10.1-1.src.rpm
+# environment
+PAGER = less
+# makefile (from 'Makefile', line 5)
+DAEMON_VERSION := 5.5.0-59.151
+# makefile (from 'Makefile', line 44)
+TARGETS_GITHUB_EVDI := i386/displaylink-1.10.1-1-github_evdi.i386.rpm x86_64/displaylink-1.10.1-1-github_evdi.x86_64.rpm displaylink-1.10.1-1-github_evdi.src.rpm
+# environment
+_ = /usr/bin/make
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 34)
+SRPM := displaylink-1.10.1-1.src.rpm
+# environment
+COLORTERM = truecolor
+# environment
+NVM_CD_FLAGS = -q
+# makefile (from 'Makefile', line 150)
+BUILD_DEFINES_GITHUB_EVDI = --define "_github 1"
+# environment
+VISUAL = vim
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/sonny
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-9ed1cf85-1.67.2-main.sock
+# environment
+TERM = xterm-256color
+# makefile (from 'Makefile', line 42)
+SRPM_GITHUB_EVDI := displaylink-1.10.1-1-github_evdi.src.rpm
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VTE_VERSION = 6800
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = gnome
+# variable set hash-table stats:
+# Load=136/1024=13%, Rehash=0, Collisions=14/224=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 40, inode 16937): 27 files, no impossibilities.
+
+# 27 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+srpm-github: displaylink-1.10.1-1-github_evdi.src.rpm
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+/var/tmp/evdi-1.10.1:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 127):
+	git clone --depth 1 -b $(EVDI_DEVEL_BRANCH) $(EVDI_DEVEL_REPO) $(EVDI_DEVEL)
+
+clean-all:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 109):
+	rm -rf i386/*.rpm x86_64/*.rpm displaylink*.src.rpm $(EVDI_PKG) $(EVDI_DEVEL)
+
+clean-mainline:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 104):
+	rm -rf $(TARGETS) $(EVDI_DEVEL) $(EVDI_PKG)
+
+x86_64/displaylink-1.10.1-1.x86_64.rpm: DisplayLink USB Graphics Software for Ubuntu 5.5.0-59.151.zip displaylink.spec
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 156):
+	rpmbuild -bb $(BUILD_DEFINES) displaylink.spec --target=x86_64
+
+# Not a target:
+ 
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-20 03:28:26
+#  File has been updated.
+#  Successfully updated.
+
+v1.10.1.tar.gz:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 134):
+	wget -O v$(VERSION).tar.gz \
+		https://github.com/DisplayLink/evdi/archive/v$(VERSION).tar.gz
+
+rawhide:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 96):
+	@echo Checking last upstream commit date...
+	$(MAKE) RELEASE="`$(get_release_version)`.rawhide.`$(get_devel_date)`" devel github-release
+
+i386/displaylink-1.10.1-1-github_evdi.i386.rpm: DisplayLink USB Graphics Software for Ubuntu 5.5.0-59.151.zip v1.10.1.tar.gz displaylink.spec
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 162):
+	rpmbuild -bb $(BUILD_DEFINES)$(BUILD_DEFINES_GITHUB_EVDI) displaylink.spec --target=i386
+
+clean: clean-mainline clean-rawhide
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+DisplayLink USB Graphics Software for Ubuntu 5.5.0-59.151.zip:
+#  Implicit rule search has not been done.
+#  Last modified 2022-03-09 11:11:42
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 130):
+	wget -O $(DAEMON_PKG) \
+		"https://www.synaptics.com/sites/default/files/exe_files/2022-03/DisplayLink USB Graphics Software for Ubuntu5.5-EXE.zip"
+
+rpm-github: i386/displaylink-1.10.1-1-github_evdi.i386.rpm x86_64/displaylink-1.10.1-1-github_evdi.x86_64.rpm
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+displaylink.spec:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-20 02:47:54
+#  File has been updated.
+#  Successfully updated.
+
+github-release: i386/displaylink-1.10.1-1-github_evdi.i386.rpm x86_64/displaylink-1.10.1-1-github_evdi.x86_64.rpm displaylink-1.10.1-1-github_evdi.src.rpm
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+x86_64/displaylink-1.10.1-1-github_evdi.x86_64.rpm: DisplayLink USB Graphics Software for Ubuntu 5.5.0-59.151.zip v1.10.1.tar.gz displaylink.spec
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 165):
+	rpmbuild -bb $(BUILD_DEFINES)$(BUILD_DEFINES_GITHUB_EVDI) displaylink.spec --target=x86_64
+
+displaylink-1.10.1-1-github_evdi.src.rpm: DisplayLink USB Graphics Software for Ubuntu 5.5.0-59.151.zip v1.10.1.tar.gz displaylink.spec
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 168):
+	rpmbuild -bs $(BUILD_DEFINES)$(BUILD_DEFINES_GITHUB_EVDI) displaylink.spec
+
+clean-rawhide:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 100):
+	@echo Checking last upstream commit date...
+	$(MAKE) RELEASE="`$(get_release_version)`.rawhide.`$(get_devel_date)`" clean-mainline
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: i386/displaylink-1.10.1-1.i386.rpm x86_64/displaylink-1.10.1-1.x86_64.rpm displaylink-1.10.1-1.src.rpm
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+
+rpm: x86_64/displaylink-1.10.1-1.x86_64.rpm
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+devel: /var/tmp/evdi-1.10.1
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 91):
+	cd $(EVDI_DEVEL) && git pull
+	tar -z -c -f $(EVDI_PKG) -C $(EVDI_DEVEL_BASE_DIR) evdi-$(VERSION)
+
+versions:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 113):
+	@echo VERSION: $(VERSION)
+	@echo Checking upstream version...
+	@version=`$(get_latest_prerelease)` && echo UPSTREAM: $$version
+	@echo Checking upstream version...done
+	@echo
+	@echo Checking last upstream commit date...
+	@devel_date=`$(get_devel_date)` && echo DEVEL_DATE: $$devel_date
+	@echo Checking last upstream commit date...done
+
+i386/displaylink-1.10.1-1.i386.rpm: DisplayLink USB Graphics Software for Ubuntu 5.5.0-59.151.zip displaylink.spec
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := i386/displaylink-1.10.1-1.i386.rpm
+# automatic
+# * := 
+# automatic
+# < := DisplayLink USB Graphics Software for Ubuntu 5.5.0-59.151.zip
+# automatic
+# + := DisplayLink USB Graphics Software for Ubuntu 5.5.0-59.151.zip displaylink.spec
+# automatic
+# % := 
+# automatic
+# ^ := DisplayLink USB Graphics Software for Ubuntu 5.5.0-59.151.zip displaylink.spec
+# automatic
+# ? := DisplayLink USB Graphics Software for Ubuntu 5.5.0-59.151.zip displaylink.spec
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=9/15=60%
+#  recipe to execute (from 'Makefile', line 153):
+	rpmbuild -bb $(BUILD_DEFINES) displaylink.spec --target=i386
+
+github:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+displaylink-1.10.1-1.src.rpm: DisplayLink USB Graphics Software for Ubuntu 5.5.0-59.151.zip displaylink.spec
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 159):
+	rpmbuild -bs $(BUILD_DEFINES) displaylink.spec
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all github rpm srpm rpm-github srpm-github devel rawhide clean clean-rawhide clean-mainline clean-all versions
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+srpm: i386/displaylink-1.10.1-1.i386.rpm x86_64/displaylink-1.10.1-1.x86_64.rpm
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=28/1024=3%, Rehash=0, Collisions=8/101=8%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 54 / storage = 850 B / avg = 15 B
+# current buf: size = 8162 B / used = 850 B / count = 54 / avg = 15 B
+
+# strcache performance: lookups = 126 / hit rate = 57%
+# hash-table stats:
+# Load=54/8192=1%, Rehash=0, Collisions=0/126=0%
+# Finished Make data base on Wed Jun  1 16:10:26 2022
+
+ 
